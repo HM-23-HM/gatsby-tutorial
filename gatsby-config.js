@@ -7,6 +7,7 @@ module.exports = {
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
