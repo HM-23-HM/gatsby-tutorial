@@ -9,6 +9,13 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `blog`,
+        path: `${__dirname}//blog`,
+      }
+    },
+    {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "G-438TMDNGJB",
